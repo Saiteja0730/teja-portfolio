@@ -7,6 +7,8 @@ import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
+import firebase from "./assets/images/Skills/firebase.png";
+import mongoose from "./assets/images/Skills/mongoose.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -59,54 +61,64 @@ export const content = {
   ],
   hero: {
     title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    firstName: "SAITEJA",
+    LastName: "NOMULA",
     btnText: "Hire Me",
     image: Hero_person,
+    nameFontSize: "1rem", 
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        text: "Ready to Begin with your project",
       },
       {
-        count: "20+",
+        count: "3",
         text: "Projects Worked in my career",
       },
     ],
   },
   skills: {
     title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    subtitle: "Skills I have",
     skills_content: [
-      {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
-      },
-      {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },
-      {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
-      },
       {
         name: "React js",
         para: "Lorem ipsum text  dummy",
         logo: reactjs,
       },
       {
-        name: "Sketch",
+        name: "Node & Express js",
+        para: "Lorem ipsum text  dummy",
+        logo: nodejs,
+      },
+      {
+        name: "Boostrap",
+        para: "Lorem ipsum text  dummy",
+        logo: ps,
+      },
+      {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: figma, 
+      },
+      {
+        name: "Git & Github",
         para: "Lorem ipsum text  dummy",
         logo: sketch,
       },
       {
-        name: "Python",
+        name: "Tailwind CSS",
         para: "Lorem ipsum text  dummy",
         logo: python,
+      },
+      {
+        name: "Firebase",
+        para: "Lorem ipsum text  dummy",
+        logo: firebase,
+      },
+      {
+        name: "Mongoose",
+        para: "Lorem ipsum text  dummy",
+        logo: mongoose,
       },
     ],
     icon: MdArrowForward,
@@ -186,27 +198,27 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "I am a web developer with a passion for creating beautiful and functional websites. I have a strong understanding of frontend and backend development and I am always looking for new ways to improve my skills.",
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "saitejanomula143@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:saitejanomula143@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+91 9505993063",
         icon: MdCall,
         link: "https://wa.me/1234567890",
       },
       {
-        text: "codeaprogram",
+        text: "blubeast46",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/__blue_beast__46/",
       },
     ],
   },

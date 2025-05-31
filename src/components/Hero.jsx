@@ -1,4 +1,3 @@
-// import content
 import { useEffect } from "react";
 import { content } from "../Content";
 const Hero = () => {
@@ -12,7 +11,7 @@ const Hero = () => {
           data-aos-delay="1200"
           className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
         >
-          <h1 className="rotate-90 absolute top-[30%] right-[-15%] text-[#EAF2FA]">
+          <h1 className="rotate-90 absolute top-[30%] right-[10%] text-[#EAF2FA] text-xl sm:text-2xl md:text-4xl">
             {hero.firstName}{" "}
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
@@ -42,7 +41,7 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="md:h-[37rem] h-96">
+        <div className="md:h-[28rem] h-72">
           <img
             src={hero.image}
             data-aos="slide-up"
