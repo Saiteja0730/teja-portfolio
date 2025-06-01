@@ -7,7 +7,7 @@ import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
-import firebase from "./assets/images/Skills/firebase.png";
+import firebase from "./assets/images/Skills/Firebase.png";
 import mongoose from "./assets/images/Skills/netlify.png";
 import sql from "./assets/images/Skills/sql.png";
 
