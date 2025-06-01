@@ -33,7 +33,7 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward } from "react-icons/md";
-import { BsInstagram, BsWhatsapp } from "react-icons/bs";
+import { BsInstagram, BsWhatsapp, BsLinkedin } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -226,6 +226,11 @@ export const content = {
         text: "blubeast46",
         icon: BsInstagram,
         link: "https://www.instagram.com/__blue_beast__46/",
+      },
+      {
+        text: "LinkedIn",
+        icon: BsLinkedin,
+        link: "https://www.linkedin.com/in/saiteja-nomula/",
       },
     ],
   }
