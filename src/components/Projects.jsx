@@ -51,14 +51,14 @@ const Projects = () => {
             data-aos="fade-left"
             spaceBetween={15}
             modules={[Pagination]}
-            className="rounded-2xl pb-10 max-w-[240px] drop-shadow-primary self-start"
+            className="rounded-2xl pb-10 max-w-[320px] drop-shadow-primary self-start"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
                 key={i}
-                className="bg-white rounded-2xl p-3 border-b-6 border-[#FAF9FD] h-fit"
+                className="bg-white rounded-2xl p-4 border-b-6 border-[#FAF9FD] h-fit"
               >
-                <div className="aspect-w-16 aspect-h-9 mb-2">
+                <div className="aspect-w-16 aspect-h-9 mb-3">
                   <img 
                     src={content.image} 
                     alt={content.title}
@@ -66,11 +66,11 @@ const Projects = () => {
                     className={`w-full h-full object-cover rounded-lg ${imageError[i] ? 'hidden' : ''}`}
                   />
                 </div>
-                <div className="flex flex-col gap-0.5 mt-1">
-                  <h5 className="font-bold font-Poppins text-xs">{content.title}</h5>
+                <div className="flex flex-col gap-1 mt-2">
+                  <h5 className="font-bold font-Poppins text-sm">{content.title}</h5>
                   <button 
                     onClick={() => handleProjectClick(content.url)}
-                    className="font-bold text-gray self-end text-xs hover:text-blue-600 transition-colors"
+                    className="font-bold text-gray self-end text-sm hover:text-blue-600 transition-colors"
                   >
                     View Project
                   </button>
