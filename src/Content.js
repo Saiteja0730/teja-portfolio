@@ -156,14 +156,17 @@ export const content = {
       {
         title: "Portfolio",
         image: project1,
+        url: "https://teja-portfolio-chi.vercel.app"
       },
       {
         title: "MERN RealEstate",
         image: project2,
+        url: "https://real-estate-phi-beige.vercel.app" 
       },
       {
         title: "Ai-travel Planner",
         image: project3,
+        url: "https://destiny-trip-ai.netlify.app/" 
       },
     ],
   },
