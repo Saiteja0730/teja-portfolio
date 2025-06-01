@@ -220,7 +220,7 @@ export const content = {
       {
         text: "+91 9505993063",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/919505993063",
       },
       {
         text: "blubeast46",
