@@ -51,6 +51,35 @@
   }
 }
 
+/* Custom Typing Animation Styles */
+.typing-text {
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  background: linear-gradient(90deg, #4A3427, #8B4513);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0px 2px 4px rgba(139, 69, 19, 0.1);
+  animation: typing 4s steps(40) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: none;
+}
+
+.typing-text::after {
+  display: none;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 @layer utilities {
   .btn {
     @apply py-2 px-9 border-2 rounded-md

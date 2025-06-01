@@ -18,23 +18,30 @@ const Hero = () => {
         </div>
 
         {/* first col */}
-        <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2>{hero.title}</h2>
-          <br />
-          <div className="flex justify-end">
-            <button className="btn">{hero.btnText}</button>
+        <div className="pb-16 px-6 pt-5 flex flex-col" data-aos="fade-down">
+          <div className="mb-6">
+            <h2 className="text-xl sm:text-2xl md:text-3xl typing-text overflow-hidden whitespace-nowrap">
+              {hero.title}
+            </h2>
+            <br />
+            <p className="text-base sm:text-lg md:text-xl text-gray-700">Ready to Begin with your project</p>
           </div>
-          <div className="flex flex-col gap-10 mt-10">
+          
+          <div className="flex justify-start mb-8">
+            <button className="btn text-sm sm:text-base bg-brown_accent text-white hover:bg-brown_light hover:text-dark_primary transition-colors">{hero.btnText}</button>
+          </div>
+
+          <div className="flex flex-col gap-8">
             {hero.hero_content.map((content, i) => (
               <div
                 key={i}
                 data-aos="fade-down"
                 data-aos-delay={i * 300}
-                className={`flex items-center w-80 gap-5
-            ${i === 1 && " flex-row-reverse text-right"}  `}
+                className={`flex items-center w-72 sm:w-80 gap-4 bg-white/80 p-4 rounded-lg shadow-sm
+                ${i === 1 && "flex-row-reverse text-right ml-auto"}`}
               >
-                <h3>{content.count}</h3>
-                <p>{content.text}</p>
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-brown_accent">{content.count}</h3>
+                <p className="text-sm sm:text-base text-gray-600">{content.text}</p>
               </div>
             ))}
           </div>

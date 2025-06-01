@@ -9,6 +9,7 @@ import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
 import firebase from "./assets/images/Skills/firebase.png";
 import mongoose from "./assets/images/Skills/mongoose.png";
+import sql from "./assets/images/Skills/sql.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -60,16 +61,13 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
+    title: "MERN Stack Developer",
     firstName: "SAITEJA",
     LastName: "NOMULA",
     btnText: "Hire Me",
     image: Hero_person,
     nameFontSize: "1rem", 
     hero_content: [
-      {
-        text: "Ready to Begin with your project",
-      },
       {
         count: "3",
         text: "Projects Worked in my career",
@@ -82,64 +80,68 @@ export const content = {
     skills_content: [
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Enables dynamic user experiences with state management",
         logo: reactjs,
       },
       {
         name: "Node & Express js",
-        para: "Lorem ipsum text  dummy",
+        para: " Asynchronous, Middleware, Routing, Scalable, Event-driven",
         logo: nodejs,
       },
       {
         name: "Boostrap",
-        para: "Lorem ipsum text  dummy",
+        para: "Responsive, Components, Customizable, Utility classes, Framework",
         logo: ps,
       },
       {
         name: "MongoDB",
-        para: "Lorem ipsum text  dummy",
+        para: "NoSQL, Schema-less, Aggregation, Indexing, Scalable",
         logo: figma, 
       },
       {
         name: "Git & Github",
-        para: "Lorem ipsum text  dummy",
+        para: "Version Control, Collaboration, Branching, Pull Requests, CI/CD",
         logo: sketch,
       },
       {
         name: "Tailwind CSS",
-        para: "Lorem ipsum text  dummy",
+        para: "Responsive, Utility classes, Customization, Design System, Framework",
         logo: python,
       },
       {
         name: "Firebase",
-        para: "Lorem ipsum text  dummy",
+        para: "Authentication, Realtime Database, Cloud Storage, Cloud Functions, Hosting",
         logo: firebase,
       },
       {
         name: "Mongoose",
-        para: "Lorem ipsum text  dummy",
+        para: "Object-Document Mapping, Validation, Middleware, Aggregation, Indexes",
         logo: mongoose,
       },
+      {
+        name: "SQL",
+        para: "Relational, Table, Column, Row, Query, Transaction, Index, Constraint",
+        logo: sql,
+      },
     ],
-    icon: MdArrowForward,
   },
   services: {
     title: "Services",
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Frontend",
+        para: "Building creative appealing and interactive user interfaces with light/dark mode and many other functionalities...",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Backend",
+        para: "Building the server-side logic and database components that power websites and applications...",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Web Security",
+        para: "Implementing security measures to protect against common web vulnerabilities...",
         logo: services_logo3,
       },
     ],

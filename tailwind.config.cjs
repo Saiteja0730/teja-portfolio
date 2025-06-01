@@ -24,7 +24,7 @@ module.exports = {
       },
       dropShadow: {
         primary: "-5px 35px 40px rgba(139, 69, 19, 0.2)",
-      },
+      }
     },
   },
   plugins: [],

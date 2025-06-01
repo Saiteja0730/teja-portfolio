@@ -47,7 +47,7 @@ const Projects = () => {
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
                   <button className="font-bold text-gray self-end">
-                    READ MORE
+                    View Project
                   </button>
                 </div>
               </SwiperSlide>
