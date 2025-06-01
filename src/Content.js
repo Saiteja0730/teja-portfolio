@@ -32,8 +32,8 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+import { MdArrowForward } from "react-icons/md";
+import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -219,7 +219,7 @@ export const content = {
       },
       {
         text: "+91 9505993063",
-        icon: MdCall,
+        icon: BsWhatsapp,
         link: "https://wa.me/919505993063",
       },
       {
@@ -228,8 +228,5 @@ export const content = {
         link: "https://www.instagram.com/__blue_beast__46/",
       },
     ],
-  },
-  Footer: {
-    text: "All © Copy Right Reserved 2022",
-  },
+  }
 };
